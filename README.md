@@ -8,7 +8,9 @@
 
 ## Overview
 
-This project uses Buoy data from 5 buoy stations spead across the Western coast of Ireland to determine when severe weather conditions should prompt a warning based on key metrics wind speed, wave height, and wind gust. The stages of cleaning, exploritory data, machine learning with liner regression, and the message emmition to RabbitMQ via python script are all geared toward one combined effort, to validate that the data is accurate using machine learning to ensure our warning emittions are legitimate when alerting those within the danger zone of the sever weather event(s).  
+This project uses Buoy data from 5 buoy stations spead across the coast of Ireland to determine when severe weather conditions should prompt a warning based on key metrics wind speed, wave height, and wind gust. The stages of cleaning, exploritory data, machine learning with liner regression, and the message emmition to RabbitMQ via python script are all geared toward one combined effort, to validate that the data is accurate using machine learning to ensure our warning emittions are legitimate when alerting those within the danger zone of the severe weather event(s).  
+
+![Alt text](<Buoy Stations.png>)
 
 This repository contains the project materials for "Real-Time Buoy Data: Wave and Weather Threat Detection." The project focuses on leveraging oceanographic buoy data to detect potential extreme weather events, contributing to the protection of coastal communities and marine environments.
 
@@ -62,6 +64,7 @@ This repository contains the project materials for "Real-Time Buoy Data: Wave an
 - DataCleaning.ipynb : Data Cleaning steps that produced the Buoydata_modified.csv file
 - ExploratoryDataAnalytics.ipynb : Visualizations 
 - MachineLearning.ipynb : Linear Regression model creation, testing, and results
+- Buoy Stations.png : Provides a map fo the buoys geographical location which are used in this project. 
 
 ## Communication and Progression
 
@@ -71,6 +74,7 @@ This repository contains the project materials for "Real-Time Buoy Data: Wave an
 ## Note
 
 - Please refer to the Overleaf report for detailed explanations, visualizations, and in-depth analysis.
+- Please refer to Buoy Stations.png
 
 ---
 Feel free to explore the project and use the provided resources for a deeper understanding of the methodologies and findings.
