@@ -8,7 +8,7 @@
 
 ## Overview
 
-This project uses Buoy data from 5 buoy stations spead across the coast of Ireland to determine when severe weather conditions should prompt a warning based on key metrics wind speed, wave height, and wind gust. The stages of cleaning, exploritory data, machine learning with liner regression, and the message emmition to RabbitMQ via python script are all geared toward one combined effort, to validate that the data is accurate using machine learning to ensure our warning emittions are legitimate when alerting those within the danger zone of the severe weather event(s).  
+This project uses Buoy data from 5 buoy stations spead across the coast of Ireland to determine when severe weather conditions should prompt a warning based on key metrics wind speed, wave height, and wind gust. The stages of cleaning, exploritory data, machine learning with liner regression, and the message emmition to RabbitMQ via python script are all geared toward one combined effort, to validate that the data is accurate using machine learning to ensure our warning emittions are legitimate when alerting those within the danger zone of the severe weather event(s). Below is a map of the geographical locations of the buoys used in this project, whcih are located around Ireland. Buoy's are M1, M2, M3, M4, and Belmullet-AMETS (noted as "Belmullet" in image).
 
 ![Alt text](<Buoy Stations.png>)
 
